@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" id="myBlock">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="app">
+    <!-- This is sidebar -->
+    <div class="sidebar">
+        
+        <div class="title">
+            <b>
+                scateboard
+            </b>
+        </div>
+        <div class="menu" id="myBlocka">
+            menu
+            <div class="list1">
+
+                <div class="elementmenu" id="myBlockc">
+                    <div class="menu1-1">
+
+                        <input class = "menu1"  type="checkbox" >
+                    </div>
+                    <p class="t bel" id="myBlockc">
+                        <div id="myBlockc">
+                            <b >
+                                Discover
+                            </b>
+
+                        </div>
+                        
+                    </p>
+                    
+                </div>
+    
+                <div class="elementmenu">
+                    <input class = "menu2" type="checkbox" >
+                    <div >
+
+                    </div>
+                    <p class="t">
+                        Trending
+                    </p>
+                    
+                </div>
+    
+                <div class="elementmenu">
+                    <input class = "menu3"  type="checkbox" id="">
+                    <p class="t">
+                        Streaming
+                    </p>
+                    
+                </div>
+    
+                <div class="elementmenu">
+                    <input class = "menu4"  type="checkbox" id="">
+                    <p class="t">
+                        Playlist
+                    </p>
+                    
+                </div>
+    
+                <div class="elementmenu">
+                    <input class = "menu5"  type="checkbox" id="">
+                    <p class="t">
+                        Bookmark
+                    </p>
+                    
+                </div>
+            </div>
+            <hr>
+
+        </div>
+
+
+
+        <div class="menu" id="myBlockb">
+            category
+            <div class="list2">
+
+                <div class="elementmenu">
+                    <input class = "menu11"  type="checkbox" id="">
+                    <p class="t">
+                        Live Stream
+                    </p>
+                    
+                </div>
+    
+                <div class="elementmenu">
+                    <input class = "menu2"  type="checkbox" id="">
+                    <p class="t">
+                        Tutorial
+                    </p>
+                    
+                </div>
+    
+                <div class="elementmenu">
+                    <input class = "menu3"  type="checkbox" id="">
+                    <p class="t">
+                        Competition
+                    </p>
+                    
+                </div>
+    
+                <div class="elementmenu">
+                    <input class = "menu4"  type="checkbox" id="">
+                    <p class="t">
+                        Community
+                    </p>
+                    
+                </div>
+    
+            </div>
+            <hr>
+        </div>
+        <!-- button -->
+        <div class="b" >
+
+            <label class="toggle-button" >
+                <input type="checkbox" onclick="toggleSwitch()">
+                <span class="toggle-slider" id="myButton"></span>
+                </label>
+                
+                <script>
+                function toggleSwitch() {
+                    // Получаем ссылку на элемент переключателя
+                    const toggle = document.querySelector(".toggle-button input");
+                    // Получаем ссылку на элемент ползунка
+                    const slider = document.querySelector(".toggle-slider");
+                    
+                    // Переключаем класс активного состояния
+                    slider.classList.toggle("active", toggle.checked,);
+                }
+                </script>
+            <div class="n" >Night mode</div>
+        </div> 
+        <!-- button -->
+    </div>
+    <!-- This is sidebar -->
+
+
+    <div class="page">
+        <div class="header">
+            <!-- <div class="search">WORLD</div>
+            <div class="user">HELLO USER</div> -->
+            <div class="search" id="myBlockc1">
+                Search
+                <input class = "lupa"  type="checkbox" id="">
+            </div>
+            <div class="thomas">
+                <img src="./images/thomas.png" alt="" width="25">
+                Thomas
+                <input class = "down"  type="checkbox" id="">
+                <img src="./images/zvonok.png" alt="" width="15">
+            </div>
+        </div>
+        <div class="content">
+            <h1>Discover</h1>
+            <div class="promo">
+                <!-- block 1 -->
+                <div class="promoEl">
+                    <div class="blueblock">
+                        <img class="imageblue" src="./images/blue.png" alt="" >
+                        <div class="autorblue">
+                            How to do Basic Jumping and how to landing safely
+                            <div class="iconautor">
+                                <div class="iconb">
+                                    <!-- <img src="./iconb.png" alt=""> -->
+                                    <!-- ava -->
+                                    <div class="circleframe">
+                                        <div class="container">
+                                        <img class="image"  src="./images/image .png" alt="">
+                                    </div>
+                                    <div class="gal">
+                                
+                                        <img src="./images/galblue.png" alt="">
+                                    </div>
+                                    </div>
+                                    <!-- ava -->
+                                </div>
+        
+                                <div class="autorb2">
+                                    Thomas Hope
+                                    <div class="autorb3">
+                                        53K views  •  2 weeks ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time" align="center">
+                            7 min
+                        </div>
+                    </div>
+                </div>
+                <!-- end block 1 -->
+                <!-- block 2 -->
+                <div class="promoEl">
+                    <div class="cardwrapper">
+
+                        <img class="cardimage" src="./images/orange.png" alt="" >
+                            <div class="autor">
+                                <b>Skateboad Tips You need to know</b>
+                                <div class="autor2">
+                                    Tony Andrew
+                                </div>
+                                <div class="autor3">
+                                    53K views  •  2 weeks ago
+                                </div>
+                                <div class="icon1">
+                                    <!-- <img src="./icon1.png" alt="" width="60"> -->
+                                    <!-- ava -->
+                                    <div class="circleframe">
+                                        <div class="container">
+                                        <img class="image"  src="./images/image 2.png" alt="">
+                                    </div>
+                                    <div class="gal">
+                                
+                                        <img  src="./images/galorange.png" alt="">
+                                    </div>
+                                    </div>
+                                    <!-- ava -->
+                                </div>
+                                
+                            </div>
+                                <div class="time" align="center">
+                                    10 min  
+                                </div>
+                        </div>
+                </div>
+                <!-- end block 2 -->
+            </div>
+            <h1 class="head2">Most Watched</h1>
+            <div class="mostWatched">
+                <!-- 1 picture -->
+                <div class="mostWatchedEl">
+                    <div class="pic1" id="myBlockd1">
+                        <img class="img1" src="./images/pic1.png" alt="">
+                        <div class="time2" align="center">
+                            7 min
+                        </div>
+                        <div class="icond1">
+                            <!-- <img src="./icond1.png" alt=""> -->
+                            <!-- ava -->
+                            <div class="circleframe">
+                                <div class="container">
+                                <img class="imageg"  src="./images/image d1.png" alt="">
+                            </div>
+                            <div class="gal1">
+                        
+                                <img src="./images/galgrey.png" alt="">
+                            </div>
+                            </div>
+                            <!-- ava -->
+                        </div>
+                        <div class="abs">
+
+                            <div class="textcircle" id="myBlockt1">
+                                <div class="text11" >
+                                    <div >
+
+                                        Andy William
+                                    </div>
+                                </div>
+                                <div class="circle green">
+        
+                                </div>
+                            </div>
+                            <div class="text2">
+                                Basic how to ride your skateboard comfortly
+                            </div>
+                            <div class="text3">
+                                53K views  •  2 weeks ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 1 picture -->
+                <!-- 2 picture -->
+                <div class="mostWatchedEl">
+
+                    <div class="pic1" id="myBlockd2">
+                        <img class="img1" src="./images/pic2.png" alt="">
+                        <div class="time2" align="center">
+                            7 min
+                        </div>
+                        <div class="icond1">
+                            <!-- <img src="./icond2.png" alt=""> -->
+                            <!-- ava -->
+                            <div class="circleframe">
+                                <div class="container">
+                                <img class="image"  src="./images/image d2.png" alt="">
+                            </div>
+                            <div class="gal1">
+                        
+                                <img src="./images/galgrey.png" alt="">
+                            </div>
+                            </div>
+                            <!-- ava -->
+                        </div>
+                        <div class="abs">
+
+                            <div class="textcircle">
+                                <div class="text11">
+                                    Johny Wise
+                                </div>
+                                <div class="circle orange">
+        
+                                </div>
+                            </div>
+                            <div class="text2">
+                                Prepare for your first skateboard jump
+                            </div>
+                            <div class="text3">
+                                53K views  •  2 weeks ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 2 picture -->
+                <!-- 3 picture -->
+                <div class="mostWatchedEl">
+
+                    <div class="pic1" id="myBlockd3">
+                        <img class="img1" src="./images/pic3.png" alt="">
+                        <div class="time2" align="center">
+                            7 min
+                        </div>
+                        <div class="icond1">
+                            <!-- <img src="./icond3.png" alt=""> -->
+                            <!-- ava -->
+                            <div class="circleframe">
+                                <div class="container">
+                                <img class="image"  src="./images/image d3.png" alt="">
+                            </div>
+                            <div class="gal1">
+                        
+                                <img src="./images/galgrey.png" alt="">
+                            </div>
+                            </div>
+                            <!-- ava -->
+                        </div>
+                        <div class="abs">
+
+                            <div class="textcircle">
+                                <div class="text11">
+                                    Budi Hakim
+                                </div>
+                                <div class="circle orange">
+        
+                                </div>
+                            </div>
+                            <div class="text2">
+                                Tips to playing <br>skateboard on the ramp
+                            </div>
+                            <div class="text3">
+                                53K views  •  2 weeks ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 3 picture -->
+                <!-- 4 picture -->
+                <div class="mostWatchedEl">
+
+
+                    <div class="pic1" id="myBlockd4">
+                        <img class="img1" src="./images/pic4.png" alt="">
+                        <div class="time2" align="center">
+                            7 min
+                        </div>
+                        <div class="icond1">
+                            <!-- <img src="./icond4.png" alt=""> -->
+                            <!-- ava -->
+                            <div class="circleframe">
+                                <div class="container">
+                                <img class="image"  src="./images/image d4.png" alt="">
+                            </div>
+                            <div class="gal1">
+                        
+                                <img src="./images/galgrey.png" alt="">
+                            </div>
+                            </div>
+                            <!-- ava -->
+                        </div>
+                        <div class="abs">
+
+                            <div class="textcircle">
+                                <div class="text11">
+                                    Wijaya Abadi
+                                </div>
+                                <div class="circle green">
+        
+                                </div>
+                            </div>
+                            <div class="text2">
+                                Basic Equipment to play skateboard safely
+                            </div>
+                            <div class="text3">
+                                53K views  •  2 weeks ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 4 picture -->
+            </div>
+        </div>
+    </div>
+   
+   
+</body>
+</html>
